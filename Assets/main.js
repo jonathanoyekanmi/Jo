@@ -91,3 +91,7 @@ function init() {
 	new typing(txtElement, words, wait);
 
 }
+
+const date =document.querySelector('#date');
+
+date.innerHTML = new Date().getFullYear();
